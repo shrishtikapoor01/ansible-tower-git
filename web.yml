@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
   - package: "name=httpd state=present"
-  - copy: "content='Hi.. Myself Shrishti' dest=/var/www/html/index.html"
+  - copy: "content='Hi.. Myself Shrishti, Finally End to end automation completed..!!!' dest=/var/www/html/index.html"
   - service: "name=httpd state=started"
